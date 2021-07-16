@@ -1,0 +1,93 @@
+<!-- 5 june 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML HINTS assignment5</title>
+    <link rel="stylesheet" href="./style/assignmenthtml.css" />
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .layout-color {
+            color: #EA852B;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+        .container {
+            border: 2px solid #607C9D;
+            width: 600px;
+            margin: auto;
+            max-width: 100%;
+        }
+        .height-100 { 
+            height: 100%;
+        }
+        header, h5 {
+            background-image: linear-gradient(#F9DFE2, #E7A5A5)
+        }
+        nav{
+            background-image: linear-gradient(#DDF9FE, #A6EDFF);
+        }
+        .border-blue {
+            border: 1px solid #496295;
+        }
+        .content-center{
+            padding: 5px;
+            background-color: #F4FDE2;
+        }
+        h5 {
+            border: 1px solid #BE786C;
+            border-left: unset;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        aside {
+            padding: 20px;
+            background-image: linear-gradient(#EAEAEA,#BFC0BB);
+        }
+        article {
+            border: 1px solid #918F99;
+            background-image: linear-gradient(#EEE4F9,#CDBCE9);
+            border-left: unset;
+            padding: 40px;
+        }
+        footer {
+            background-image: linear-gradient(#FCE7DB, #FEC492);
+        }
+        footer, header, nav {
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="layout-color">
+        <h1>HTML5 Layout</h1>
+    </section>
+    <section class="container">
+        <header class="text-center border-blue">&lt;header&gt;</header>
+        <nav class="text-center border-blue">&lt;nav&gt;</nav>
+        <section class="d-flex height-40 border-blue ">
+            <section class="text-center w-100 content-center">
+                &lt;section&gt;
+                <h5 class="w-100">Heading</h5>
+                <article class="w-100">&lt;article&gt;</article>
+            </section>
+            <aside class="border-blue d-flex align-items-center justify-content-center">
+                <div>&lt;aside&gt;</div>
+            </aside>
+        </section>
+        <footer class="text-center border-blue">&lt;footer&gt;</footer>
+    </section>
+</body>
+
+</html>
